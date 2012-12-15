@@ -1,19 +1,9 @@
 
 public class RomanNumerals {
 
-/*	public String toRoman(int nmber) {
-		if (nmber == 1)
-			return "I";
-		System.out.println("Try");
-		return "II";
-}*/
-	
-
 	    private static final String[] RCODE = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 	    private static final int[]    BVAL  = {1000, 900, 500, 400,  100,   90,  50, 40,   10,    9,   5,   4,    1};
 	    
-	    //=========================================================== binaryToRoman
-	 //   public static String binaryToRoman(int binary) 
 	    public String toRoman(int binary)
 	    {
 	        if (binary <= 0 || binary >= 4000) 
@@ -32,8 +22,6 @@ public class RomanNumerals {
 	                roman  += RCODE[i];
 	            }
 	        }
-	        System.out.println("123456");
-	        System.out.println(roman);
 	        return roman;
 	    }  
 	}
