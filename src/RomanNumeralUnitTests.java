@@ -13,8 +13,8 @@ public class RomanNumeralUnitTests {
 		//assertEquals("CCCXXXII", number.toRoman(333));//RED CCCXXXIII
 		//assertEquals("CCCXXXIII", number.toRoman(333));//GREEN CCCXXXIII
 	//	assertEquals("MI", number.toRoman(1001));//GREEN MI
-		assertEquals("DCL", number.toRoman(555));//RED DLV
-	//	assertEquals("CCCLXIX", number.toRoman(369));//GREEN CCCLXIX
+	//	assertEquals("DCL", number.toRoman(555));//RED DLV
+		assertEquals("CCCLXIX", number.toRoman(369));//GREEN CCCLXIX
 	//	assertEquals("II", number.toRoman(123));//RED CXXIII
 		//assertEquals("MMMC", number.toRoman(4000));//RED MMMM
 		//assertEquals("CII", number.toRoman(102));//GREEN CII
